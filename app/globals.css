@@ -6,26 +6,16 @@
    ══════════════════════════════════════════════════════════════ */
 
 @theme {
-  --color-primair:      #3b5633;   /* ← jouw hoofdkleur     */
-  --color-achtergrond:  #f8f5f0;   /* ← achtergrondkleur    */
-  --color-tekst:        #1a1a1a;   /* ← tekstkleur          */
-  --color-accent:       #d56119;   /* ← accentkleur         */
-  --color-wit:          #ffffff;
-
-  /* ── STAP 2 — Jouw lettertype ────────────────────────────── */
-  /* Optie A: Google Font
-     1. Ga naar fonts.google.com, zoek jouw font, kies "Get font" → "Get embed code"
-     2. Kopieer de @import-regel en plak hem hierboven
-     3. Pas de naam hieronder aan:
-  --font-hoofd: 'Lato', sans-serif;
-
-     Optie B: Eigen font (.otf / .ttf / .woff2)
-     1. Kopieer jouw fontbestand naar /public/fonts/
-     2. Voeg onderaan dit bestand een @font-face toe
-     3. Pas de naam hieronder aan:
-  --font-hoofd: 'JouwFont', serif;
-  */
-  --font-hoofd: Inter, system-ui, sans-serif;
+  --color-primair:       #719889;
+  --color-achtergrond:   #d0ddd8;
+  --color-tekst:         #3b5249;
+  --color-knop:          #3b5249;
+  --color-tekst-in-knop: #fdfdfd;
+  --color-accent-1:      #f1f1f0;
+  --color-accent-2:      #a690a4;
+  --color-accent-3:      #dfd8de;
+  --color-wit:           #ffffff;
+  --font-hoofd:          Inter, system-ui, sans-serif;
 }
 
 /* ─── Basisstijlen ─────────────────────────────────────────── */
@@ -110,7 +100,7 @@ body {
   align-self: flex-start;
   margin-top: 2rem;
   padding: 0.9rem 2.1rem;
-  background: var(--color-accent);
+  background: var(--color-accent-2);
   color: white;
   font-family: var(--font-hoofd);
   font-size: 1.05rem;

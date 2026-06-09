@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: {
-    default: '[Jouw naam] · [Jouw tagline]',
-    template: '%s · [Jouw naam]',
+    default: 'Rinskje Schaafsma · [Jouw tagline]',
+    template: '%s · Rinskje Schaafsma',
   },
   description: '[Korte beschrijving van wat je doet en voor wie]',
 };

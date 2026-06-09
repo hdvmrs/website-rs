@@ -22,7 +22,7 @@ export default function Header() {
 
         {/* Logo / naam */}
         <Link href="/" className="font-bold text-primair text-lg" onClick={() => setOpen(false)}>
-          [Jouw naam]
+          Rinskje Schaafsma
         </Link>
 
         {/* Navigatie — desktop */}
